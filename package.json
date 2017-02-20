@@ -1,0 +1,22 @@
+{
+  "name": "angular2example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreeaso/angular2example.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreeaso/angular2example/issues"
+  },
+  "homepage": "https://github.com/andreeaso/angular2example#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@angular/core": "~2.4.0",
+    "webpack": "2.2.0"
+  }
+}
