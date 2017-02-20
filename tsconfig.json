@@ -1,0 +1,22 @@
+{
+  "version": "1.5.0",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "listFiles": true,
+    "isolatedModules": false,
+    "moduleResolution": "node",
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "src/app/**/*.ts"
+  ],
+  "exclude": [ "node_modules" ],
+  "compileOnSave":false //not required but is suggested for meteor projects
+}
