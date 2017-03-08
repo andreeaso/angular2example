@@ -31,6 +31,8 @@
     "zone.js": "^0.7.4"
   },
   "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/node": "^7.0.5",
     "angular2-template-loader": "^0.6.2",
     "awesome-typescript-loader": "^3.0.4",
     "extract-text-webpack-plugin": "^2.0.0-beta",

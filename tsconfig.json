@@ -12,11 +12,15 @@
     "listFiles": true,
     "isolatedModules": false,
     "moduleResolution": "node",
-    "suppressImplicitAnyIndexErrors": true
+    "suppressImplicitAnyIndexErrors": true,
+    "types":[
+      "core-js",
+      "node"
+    ]
   },
   "include": [
     "src/app/**/*.ts"
   ],
-  "exclude": [ "node_modules" ],
+  "exclude": [ "node_modules"],
   "compileOnSave":false //not required but is suggested for meteor projects
 }
